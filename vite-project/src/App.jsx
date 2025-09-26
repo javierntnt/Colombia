@@ -11,10 +11,10 @@ function App() {
     <>
     <Router>
        <nav className="c-menu">
-          <Link to="/" class="Home">Home</Link>
-          <Link to="/informatica" class="Informatica">Informatica</Link>
-          <Link to="/mapa" class="Mapa">Mapa</Link>
-          <Link to="/Fav" class="Fav">Favoritos</Link>
+          <Link to="/" className="Home">Home</Link>
+          <Link to="/informatica" className="Informatica">Informatica</Link>
+          <Link to="/mapa" className="Mapa">Mapa</Link>
+          <Link to="/Fav" className="Fav">Favoritos</Link>
         </nav>       
       <Routes>
         <Route path="/" element={<Home /> } />
@@ -25,6 +25,7 @@ function App() {
       </Routes>
     </Router>
     </>
+    /*https://gist.githubusercontent.com/diaztibata/fe3d238ee6b59ef71c8001654441a9f6/raw/4974a1b1cab3ac606dd96aa2d34d6e7c8e007daf/municipios-60.json*/ 
   )
 }
 
