@@ -9,7 +9,7 @@ function Detalles() {
   useEffect(() => {
     if (!depto || !municipio) return;
 
-    const url = `https://gist.githubusercontent.com/diaztibata/fe3d238ee6b59ef71c8001654441a9f6/raw/225cef5e16b3997317e205a08a64985c9903f3c7/municipios-${encodeURIComponent(depto)}.json`;
+    const url = `https://gist.githubusercontent.com/diaztibata/fe3d238ee6b59ef71c8001654441a9f6/raw/4974a1b1cab3ac606dd96aa2d34d6e7c8e007daf/municipios.json-${encodeURIComponent(depto)}.json`;
 
     const fetchData = async () => {
       try {
